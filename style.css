@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+  }
+  
+  header h1 {
+    font-size: 2rem;
+    margin: 0;
+  }
+  
+  /* Main content styles */
+  main {
+    padding: 2rem;
+  }
+  
+  section {
+    margin-bottom: 2rem;
+  }
+  
+  /* Schedule styles */
+  section#schedule {
+    background-color: #fff;
+    padding: 1rem;
+  }
+  
+  section#schedule table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  section#schedule th,
+  section#schedule td {
+    border: 1px solid #333;
+    padding: 0.5rem;
+  }
+  
+  section#schedule th {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+  }
+  
+  /* Sponsors styles */
+  section#sponsors {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+  }
+  
+  section#sponsors li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 1rem;
+  }
+
+  img {
+      height: 200px;
+      width: 200px;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+  }
